@@ -1,12 +1,7 @@
-"""
-groceryList = [ "apples", "bananas", "milk", "bread"]
-for x in groceryList:
-    print(x)
-"""
-
 groceryList = []
 name = "stop"
 
+# Allows user to type in item
 userItem = input("Type in an item (or 'stop' to finish): ").strip().lower()
 while userItem != name:
     if userItem == "":
@@ -30,16 +25,6 @@ else:
 
 print("Thank you for using our app")
     
-##print("List: ", groceryList)
-
-"""
-groceryList = []
-for x in range(4):
-    userItem = input("Type in an item: ")
-    groceryList.append(userItem)
-print("List: ", groceryList)\
-"""
-"""
 grocery_list = ["apples", "bananas", "milk", "bread"]
 print("Grocery List:")
 for item in grocery_list:
